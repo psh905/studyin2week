@@ -1,0 +1,315 @@
+<<<<<<<<<<<<<<<<<index.html>>>>>>>>>>>>>>>>>>>>>
+
+
+
+
+<!doctype html>
+<html>
+<head>
+<title>과제(박상혁)-html</title>
+<meta charset="utf-8">
+<style>
+a {
+  color:black;
+  text-decoration: none;
+
+}
+#active{
+  color:red;
+}
+.saw{
+  color:gray;
+}
+ol{
+  border-right:1px solid gray;
+  width:150px;
+  margin:0;
+  padding:20px;
+  padding-left:33px;
+}
+body{
+  margin :0;
+}
+h1 {
+  font-size: 45px;
+  text-align: center;
+  border-bottom:1px solid gray;
+  margin:0;
+  padding:20px
+}
+#grid ol{
+  display:grid;
+  grid-template-columns: 150px 1fr;
+}
+#article{
+  padding-left:25px;
+}
+</style>
+
+</head>
+<body>
+<div id="grid">
+
+  <h1><a href="index.html" style="color:red;text-decoration:underline">멋쟁이사자처럼</a></h1>
+
+
+
+ <ol>
+ <li><a href="1.html"> 멋쟁이호랑이처럼</a></li>
+ <li> <a href="2.html">멋쟁이백호처럼</a></li>
+ <li> <a href="3.html">멋쟁이하이에나처럼</a></li>
+  </ol>
+  <div id="article">
+
+   <h3><strong><a href="https://skkulikelion.com" target="_blank" title="멋쟁이 사자처럼">멋쟁이사자처럼</a></strong></h3>
+
+ <img src="mutsa.png" width="25%">
+
+
+ <br> 성균관대학교 멋쟁이 사자처럼은 인문사회과학캠퍼스를 기반으로 활동하는 중앙 웹 프로그래밍 동아리입니다. 전공, 학년, 코딩 실력을 막론하고 자신의 아이디어를 직접 실현하고 싶은 성대생이라면 누구나 함께할 수 있습니다.
+
+ 웹 프로그래밍 교육 과정으로는 매주 정기 세션, 스터디, 학기중 및 방학중 특강(Django, Git 등)을 한 해 동안 진행합니다. 이를 바탕으로 중앙 해커톤과 성균관대 멋사 자체 해커톤 및 팀별 프로젝트를 수행합니다.
+
+ 또한 매년 홈커밍데이, 하계/동계 MT, 대학 연합 해커톤, 각종 뒷풀이, 개강 및 종강 파티 등으로 친목을 다집니다.
+ </div>
+</div>
+
+</body>
+</html>
+
+
+
+<<<<<<<<<<<<<<<<<1.html>>>>>>>>>>>>>>>>>>>>>
+
+<!doctype html>
+<html>
+<head>
+<title>과제(박상혁) -html</title>
+<meta charset="utf-8">
+
+<style>
+a {
+  color:black;
+  text-decoration: none;
+
+}
+#active{
+  color:red;
+}
+.saw{
+  color:gray;
+}
+ol{
+  border-right:1px solid gray;
+  width:150px;
+  margin:0;
+  padding:20px;
+}
+body{
+  margin :0;
+}
+h1 {
+  font-size: 45px;
+  text-align: center;
+  border-bottom:1px solid gray;
+  margin:0;
+  padding:20px
+}
+</style>
+</head>
+
+
+<body>
+
+  <h1><a href="index.html">멋쟁이사자처럼</a></h1>
+<ol>
+<li><a href="1.html" class="saw" id="active"> 멋쟁이호랑이처럼</a></li>
+<li> <a href="2.html" class="saw">멋쟁이백호처럼</a></li>
+<li> <a href="3.html">멋쟁이하이에나처럼</a></li>
+</ol>
+
+<!--
+  <h1><a href="index.html"><font color="red">멋쟁이사자처럼</a></h1>
+<ol>
+<li><a href="1.html"> 멋쟁이호랑이처럼</a></li>
+<li> <a href="2.html">멋쟁이백호처럼</a></li>
+<li> <a href="3.html">멋쟁이하이에나처럼</a></li>
+</ol>
+-->
+
+<h2> 멋쟁이호랑이처럼</h2>
+ <strong><u><a href="https://namu.wiki/w/%ED%98%B8%EB%9E%91%EC%9D%B4" target="_blank" title="호랑이 나무위키">호랑이에 대해 궁금하다면?</a></u> 눌러보세요</strong>
+
+<img src="tiger.jpg" width="50%">
+<br>
+<br>
+아시아[4]에 서식하는 식육목(食肉目) 고양잇과의 포유류. 현존하는 모든 고양잇과 동물들 중 가장 큰 동물로 수컷의 무게는 100~360 kg, 암컷의 무게는 70~200 kg 정도 나간다. 또한 IUCN 멸종 위기 등급 EN인 멸종 위기 종이기도 하다.
+
+"호랑이"의 어원에는 여러 설이 있으나 범을 뜻하는 虎와 이리를 뜻하는 狼에 접미사가 붙어(虎+狼+이) 육식 맹수를 가리키던 것이 점차 범 대신 호랑이라고 부르게 된 것으로 본다. 불교 용어로는 대충(大蟲)[5]이라고 부른다. 중국 소설 수호지에는 '모대충(母大蟲)'이란 별명을 가진 고대수라는 여자 호걸이 등장하는데, 모대충이란 말도 '암호랑이'라는 뜻. 같은 작품에 등장하는 설영 역시 별명이 병대충(病大蟲 - 호랑이만큼이나 용맹한 자)이다.
+
+한국에서는 순우리말로 범이라는 단어가 있고, 잘 발달되고 균형 잡힌 신체 구조와 느리게 움직이다가도 목표물을 향할 때의 빠른 몸놀림 그리고 빼어난 지혜와 늠름한 기품을 지녔다 하여 산군(山君), 산령 (山靈), 산신령(山神靈), 산중왕(山中王)으로 불렸다.
+
+<br>
+<br>
+<span style ="font-size:24px"> 호랑이</span>
+<h3>호랑이</h3>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<<<<<<<<<<<<<<<<<2.html>>>>>>>>>>>>>>>>>>>>>
+
+
+<!doctype html>
+<html>
+<head>
+<title>과제(박상혁) -html</title>
+<meta charset="utf-8">
+
+<style>
+a {
+  color:black;
+  text-decoration: none;
+
+}
+#active{
+  color:red;
+}
+.saw{
+  color:gray;
+}
+ol{
+  border-right:1px solid gray;
+  width:150px;
+  margin:0;
+  padding:20px;
+}
+body{
+  margin :0;
+}
+h1 {
+  font-size: 45px;
+  text-align: center;
+  border-bottom:1px solid gray;
+  margin:0;
+  padding:20px
+}
+</style>
+</head>
+
+
+<body>
+
+  <h1><a href="index.html">멋쟁이사자처럼</a></h1>
+<ol>
+<li><a href="1.html" class="saw" id="active"> 멋쟁이호랑이처럼</a></li>
+<li> <a href="2.html" class="saw">멋쟁이백호처럼</a></li>
+<li> <a href="3.html">멋쟁이하이에나처럼</a></li>
+</ol>
+
+<!--
+  <h1><a href="index.html"><font color="red">멋쟁이사자처럼</a></h1>
+<ol>
+<li><a href="1.html"> 멋쟁이호랑이처럼</a></li>
+<li> <a href="2.html">멋쟁이백호처럼</a></li>
+<li> <a href="3.html">멋쟁이하이에나처럼</a></li>
+</ol>
+-->
+
+<h2> 멋쟁이호랑이처럼</h2>
+ <strong><u><a href="https://namu.wiki/w/%ED%98%B8%EB%9E%91%EC%9D%B4" target="_blank" title="호랑이 나무위키">호랑이에 대해 궁금하다면?</a></u> 눌러보세요</strong>
+
+<img src="tiger.jpg" width="50%">
+<br>
+<br>
+아시아[4]에 서식하는 식육목(食肉目) 고양잇과의 포유류. 현존하는 모든 고양잇과 동물들 중 가장 큰 동물로 수컷의 무게는 100~360 kg, 암컷의 무게는 70~200 kg 정도 나간다. 또한 IUCN 멸종 위기 등급 EN인 멸종 위기 종이기도 하다.
+
+"호랑이"의 어원에는 여러 설이 있으나 범을 뜻하는 虎와 이리를 뜻하는 狼에 접미사가 붙어(虎+狼+이) 육식 맹수를 가리키던 것이 점차 범 대신 호랑이라고 부르게 된 것으로 본다. 불교 용어로는 대충(大蟲)[5]이라고 부른다. 중국 소설 수호지에는 '모대충(母大蟲)'이란 별명을 가진 고대수라는 여자 호걸이 등장하는데, 모대충이란 말도 '암호랑이'라는 뜻. 같은 작품에 등장하는 설영 역시 별명이 병대충(病大蟲 - 호랑이만큼이나 용맹한 자)이다.
+
+한국에서는 순우리말로 범이라는 단어가 있고, 잘 발달되고 균형 잡힌 신체 구조와 느리게 움직이다가도 목표물을 향할 때의 빠른 몸놀림 그리고 빼어난 지혜와 늠름한 기품을 지녔다 하여 산군(山君), 산령 (山靈), 산신령(山神靈), 산중왕(山中王)으로 불렸다.
+
+<br>
+<br>
+<span style ="font-size:24px"> 호랑이</span>
+<h3>호랑이</h3>
+</body>
+</html>
+
+<<<<<<<<<<<<<<<<<3.html>>>>>>>>>>>>>>>>>>>>>
+
+
+<!doctype html>
+<html>
+<head>
+<title>과제(박상혁)-html</title>
+<meta charset="utf-8">
+<style>
+a {
+  color:black;
+  text-decoration: none;
+
+}
+#active{
+  color:red;
+}
+.saw{
+  color:gray;
+}
+ol{
+  border-right:1px solid gray;
+  width:150px;
+  margin:0;
+  padding:20px;
+}
+body{
+  margin :0;
+}
+h1 {
+  font-size: 45px;
+  text-align: center;
+  border-bottom:1px solid gray;
+  margin:0;
+  padding:20px
+}
+</style>
+</head>
+
+
+<body>
+
+  <h1><a href="index.html">멋쟁이사자처럼</a></h1>
+<ol>
+<li><a href="1.html"> 멋쟁이호랑이처럼</a></li>
+<li> <a href="2.html">멋쟁이백호처럼</a></li>
+<li> <a href="3.html" style="color:red;text-decoration:underline">멋쟁이하이에나처럼</a></li>
+</ol>
+
+
+<h2> 멋쟁이하이에나처럼</h2>
+<br>
+<strong><u><a href="https://namu.wiki/w/%ED%95%98%EC%9D%B4%EC%97%90%EB%82%98" target="_blank" title="하이에나 나무위키">하이에나에 대해 궁금하다면?</a></u> 눌러보세요</strong>
+
+<img src="hyena.jpg" width="50%">
+<br>
+<br>
+Hyena, 영어 발음은 "하이이너" [haɪˈiːnə]. 포유강 수아강 진수하강 로라시아상목 식육목 고양이아목 하이에나과의 동물...이지만 과거에는 늑대와 비슷한 외모 때문에 '개과'로 분류되었던 적이 있었는데, 사실 '사향고양이과에 더 가깝다'고 보는 의견이 대세이며, 그쪽에 분류된 적도 있었으나, 이게 생긴 모습도 그렇고 라이프 스타일도 사향고양이과보다는 차라리 개과나 다름이 없기 때문에 따로 '하이에나과'에 속하게 된 모양이다. 수렴 진화의 매우 좋은 예시로, 늑대와는 생김새뿐 아니라 뛰어난 지구력, 사회성과 그에 따른 높은 지능, 앞발은 잘 사용하지 못하는 대신 매우 발달한 치악력 등도 매우 닮아 있다.
+
+라이온 킹의 영향으로 평상시에는 이히히히히히히힠하고 상대를 위협할 때에는 개처럼 짖는 것으로 알려졌지만, 이 특유의 웃음소리는 점박이하이에나의 울음소리. 상대를 위협할 때에도 그냥 으르렁거리지 짖지는 않는다. 줄무늬하이에나는 끄애애애애애애앩하는, 말로 표현할 수 없는 기괴한 울음소리를 낸다. 그래서 옛날에는 사람들이 하이에나의 울음소리를 '악마의 웃음소리'로 비유했다고 한다.[1]
+
+
+</body>
+</html>
